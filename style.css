@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+:root{
+    --bgcolor: rgba(10, 10, 10, 0.842);
+    --text-color: aliceblue;
+    --bluecolor: rgb(22, 58, 179);
+}
+a{
+    text-decoration: none;
+    color: var(--bluecolor);
+}
+body{
+    background-color: rgba(10, 10, 10, 0.842);
+    color: aliceblue;
+}
+.navbar{
+    width: 60%;
+    font-size: 1.6vw;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 2% 22%;
+    position: fixed;
+}
+.about{
+    padding: 3%;text-decoration: none;color: aliceblue;position:relative;
+}
+.projects{
+    margin-left:24%;padding: 3%;text-decoration: none;color: aliceblue;position:relative;
+}
+.Contact{
+    margin-left: 22%;padding: 3%;text-decoration: none;color: aliceblue;position:relative;
+}
+.about:hover{
+    background-color: aliceblue;
+    
+    border-radius: 5vw;
+    color: rgb(22, 58, 179);
+}
+.projects:hover{
+    background-color: aliceblue;
+    
+    border-radius: 5vw;
+    color: rgb(22, 58, 179);
+}
+.Contact:hover{
+    background-color: aliceblue;
+    
+    border-radius: 5vw;
+    color: rgb(22, 58, 179);
+}
+
+.table{
+padding: 10% 19.5%;
+}
+.projects1{
+    padding: 10% 19.5%;
+    margin-top:2%;
+
+    margin-left: 25%;
+    padding-left: 3%;
+    padding-right:3%;
+    font-size: 25px;
+}
+#con{
+    padding: 10% 19.5%;
+    margin-top:2%;
+
+    margin-left: 40%;
+    padding-left: 3%;
+    padding-right:3%;
+    font-size: 25px;
+}
+#p1{
+display:inline-block;
+margin-top: 7%;
+padding:2% 2%;
+ background-color: aliceblue;
+    
+    border-radius: 5vw;
+    color: rgb(22, 58, 179);
+}
+#p2{
+display: inline-block;
+margin-top: 7%;
+margin-left:15%;
+padding:2% 2%;
+ background-color: aliceblue;
+    
+    border-radius: 5vw;
+    color: rgb(22, 58, 179);
+}
+.imgme img{
+    margin-top: 15%;
+    margin-left: 85%;
+    height: 23vw;
+    width: 23vw;
+    border-radius: 50%;
+    /* border-top-left-radius: 20vw;
+    border-top-right-radius: 20vw; */
+   /* border-bottom-left-radius: 20vw; */
+    /* border-bottom-right-radius: 20vw; */
+    /* border-start-end-radius: 30vw; */
+}
+
+#about1{
+    margin-top:2%;
+    margin-left: 25%;
+    padding-left: 3%;
+    padding-right:3%;
+    padding-top: 10%;
+    font-size: 25px;
+}
+#rings{
+    margin-top: 1.5%;
+   float:left;
+   width: 20vw;
+   height: 20vw;
+   position: fixed;
+}
+/* #rings img{
+    width:100%;
+    float:left;
+} */
+.intro{
+    display: inline-block;
+    width:150%;
+    /* border-width: 5px;
+    border-style: double;
+    border-color: var(--bluecolor); */
+}
+h1{
+    margin-top:5%;
+    padding :5% 15%;
+    animation-duration: 4s;
+    animation-name: upin;
+    animation-iteration-count: 1;
+    background-color: var(--bluecolor);
+    border-radius: 30px;
+    /* border-width: 5px;
+    border-style: double;
+    border-color: var(--bluecolor); */
+}
+@keyframes upin {
+    0%{margin-top:60%;color: rgba(240, 248, 255, 0.014);}
+    50%{margin-top:5%;color: rgb(240, 248, 255);}
+    100%{margin-top:5%;color: rgb(240, 248, 255);}
+}
+#con img{
+    width: 3vw;
+    height: 3vw;
+}
+#ringsmalls{
+    /* margin-top: 1.5%; */
+    float:left;
+    width: 5vw;
+    height: 20vw;
+    /* position: fixed; */
+}
